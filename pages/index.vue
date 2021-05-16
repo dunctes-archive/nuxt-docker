@@ -29,9 +29,22 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
 
-export default Vue.extend({})
+export default Vue.extend({
+  head () {
+    return {
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'A cool nuxt project with SSR'
+        }
+      ]
+    };
+  }
+});
 </script>
 
 <style>
