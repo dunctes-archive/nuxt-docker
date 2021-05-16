@@ -1,0 +1,21 @@
+name: Publish Docker Image
+on:
+    push:
+        branches: [master]
+jobs:
+    push_to_registry:
+        name: Push docker image to github
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out the repo
+              uses: actions/checkout@v2
+              with:
+                submodules: true
+            - name: Push oengusdotdev to GitHub Packages
+              uses: docker/build-push-action@v1
+              with:
+                username: ${{ github.actor }}
+                password: ${{ secrets.GITHUB_TOKEN }}
+                registry: docker.pkg.github.com
+                repository: duncte123/nuxt-docker/nuxt-docker
+                tags: latest
