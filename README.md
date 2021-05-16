@@ -1,5 +1,7 @@
 # nuxt-docker
 
+Env setup should be done with this package: https://github.com/nuxt-community/dotenv-module
+
 ## Build Setup
 
 ```bash

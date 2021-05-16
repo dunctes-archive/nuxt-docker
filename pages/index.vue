@@ -3,8 +3,9 @@
     <div>
       <Logo />
       <h1 class="title">
-        nuxt-docker
+        Nuxt docker
       </h1>
+      <p class="subtitle">An example docker setup for nuxt</p>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
