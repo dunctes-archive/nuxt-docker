@@ -5,7 +5,9 @@
       <h1 class="title">
         Nuxt docker
       </h1>
-      <p class="subtitle">An example docker setup for nuxt</p>
+      <p class="subtitle">
+        An example docker setup for nuxt
+      </p>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
