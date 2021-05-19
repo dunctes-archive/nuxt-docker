@@ -41,11 +41,11 @@ export default Vue.extend({
         {
           hid: 'og:description',
           name: 'og:description',
-          content: 'A cool nuxt project with SSR'
-        }
-      ]
+          content: 'A cool nuxt project with SSR',
+        },
+      ],
     };
-  }
+  },
 });
 </script>
 
