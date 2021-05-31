@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "connect-logger": "^0.0.1",
-    "core-js": "^3.9.1",
+    "core-js": "^3.13.1",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
